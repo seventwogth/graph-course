@@ -1,0 +1,3 @@
+﻿  03_uniform_parameter.cpp
+03_uniform_parameter.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+  03_uniform_parameter_2010.vcxproj -> C:\Program Files (x86)\NVIDIA Corporation\Cg\examples\Direct3D9\basic\03_uniform_parameter\Debug\Win32\03_uniform_parameter.exe
