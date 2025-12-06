@@ -1,3 +1,0 @@
-﻿  02_vertex_and_fragment_program.cpp
-02_vertex_and_fragment_program.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
-  02_vertex_and_fragment_program_2010.vcxproj -> C:\Program Files (x86)\NVIDIA Corporation\Cg\examples\Direct3D9\basic\02_vertex_and_fragment_program\Debug\Win32\02_vertex_and_fragment_program.exe

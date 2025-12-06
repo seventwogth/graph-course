@@ -1,3 +1,0 @@
-﻿  05_texture_sampling.cpp
-05_texture_sampling.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
-  05_texture_sampling_2010.vcxproj -> C:\Program Files (x86)\NVIDIA Corporation\Cg\examples\Direct3D9\basic\05_texture_sampling\Debug\Win32\05_texture_sampling.exe

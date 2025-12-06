@@ -1,3 +1,0 @@
-﻿C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(2189,5): warning MSB9008: указанный проект ..\..\miniDXUT\miniDXUT_2010.vcxproj не существует.
-  01_vertex_program.cpp
-C:\Users\mxlly\github\graph-course\CgSamples\01_vertex_program\01_vertex_program.cpp(12,10): error C1083: Не удается открыть файл включение: DXUT.h: No such file or directory,

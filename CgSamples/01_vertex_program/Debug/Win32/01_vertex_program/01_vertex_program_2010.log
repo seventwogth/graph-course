@@ -1,3 +1,0 @@
-﻿  01_vertex_program.cpp
-01_vertex_program.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
-  01_vertex_program_2010.vcxproj -> C:\Program Files (x86)\NVIDIA Corporation\Cg\examples\Direct3D9\basic\01_vertex_program\Debug\Win32\01_vertex_program.exe
