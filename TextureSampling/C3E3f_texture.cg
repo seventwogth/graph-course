@@ -6,10 +6,11 @@ struct C3E3f_Output {
 };
 
 C3E3f_Output C3E3f_texture(float2 texCoord : TEXCOORD0,
+                           float2 rawPos   : TEXCOORD1,
                            uniform sampler2D decal : TEX0)
 {
   C3E3f_Output OUT;
-  OUT.color = tex2D(decal,texCoord);
+
+  OUT.color = tex2D(decal, texCoord);
   return OUT;
 }
-

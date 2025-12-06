@@ -5,6 +5,7 @@ struct C3E2v_Output {
   float4 position : POSITION;
   float3 color    : COLOR;
   float2 texCoord : TEXCOORD0;
+  float2 rawPos   : TEXCOORD1;
 };
 
 C3E2v_Output C3E2v_varying(float2 position : POSITION,
@@ -16,6 +17,7 @@ C3E2v_Output C3E2v_varying(float2 position : POSITION,
   OUT.position = float4(position,0,1);
   OUT.color    = color;
   OUT.texCoord = texCoord;
+  OUT.rawPos   = position; 
 
   return OUT;	
 }

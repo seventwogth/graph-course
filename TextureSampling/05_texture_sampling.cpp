@@ -32,9 +32,9 @@ static const char *myProgramName = "05_texture_sampling",
 /* Page 67 */     *myFragmentProgramName = "C3E3f_texture";
 
 static const unsigned char
-myDemonTextureImage[3*(128*128+64*64+32*32+16*16+8*8+4*4+2*2+1*1)] = {
-/* RGB8 image data for a mipmapped 128x128 demon texture */
-#include "demon_image.h"
+myCatTextureImage[3 * 128 * 128] = {
+/* RGB8 image data for a mipmapped 128x128 cat texture */
+#include "cat_image.h"
 };
 
 static void checkForCgError(const char *situation)
@@ -202,9 +202,9 @@ static HRESULT initTexture(IDirect3DDevice9* pDev)
   DWORD *texel = (DWORD*) lockedRect.pBits;
 
   for (int i=0; i<128*128*3; i+=3) {
-    *texel++ = myDemonTextureImage[i+0] << 16 |
-               myDemonTextureImage[i+1] << 8  |
-               myDemonTextureImage[i+2];
+    *texel++ = myCatTextureImage[i+0] << 16 |
+               myCatTextureImage[i+1] << 8  |
+               myCatTextureImage[i+2];
   }
 
   myTexture->UnlockRect(0);
